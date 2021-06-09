@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Static</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="/aframe-stereo-component.min.js"></script>
+</head>
+
+<body id="bod">
+
+    <form id="myForm">
+        <input type="text" id="rURL" name="lImg" placeholder="Left Image URL:" style="display: none;">
+        <input type="text" id="lURL" name="rImg" placeholder="Right Image URL:" style="display: none;">
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        window.onload = function () { loaded() };
+        function loaded() {
+            const params = new URLSearchParams(window.location.search);
+            console.log("L Image: " + params.get('lImg') + "\nR Image: " + params.get('rImg'));
+            bod.innerHTML = "<a-scene>\n<a-assets>\n<img id=\"left\" src=\"" + params.get('lImg') + "\">\n<img id=\"right\" src=\"" + params.get('rImg') + "\">\n</a-assets>\n<a-camera stereocam=\"eye: left\">\n<a-plane position=\"0 0 -2\"\ncolor=\"white\"\nstereo=\"eye: left\"\n>\n<a-image position=\"0 0 1\" \nsrc=\"#left\"\nstereo=\"eye: left\"\ntransparent=\"false\"\n>\n</a-image>\n<a-image position=\"0 0 1\"\nsrc =\"#right\"\nstereo =\"eye: right\"\ntransparent =\"false\">\n</a-image>\n</a-plane>\n</a-camera>\n</a-scene>";
+
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Stereoscope</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>VR Stereoscope</h1>
+        <p>
+            A simple smartphone-based stereoscope
+        <div>
+            <img class="headerImage"
+                src="/assets/HomepageImages/HeaderImage.jpg"
+                alt="Header Image" />
+        </div>
+        </p>
+        <br /><br />
+        <div class="usage">
+            <h2>Usage</h2>
+            <hr>
+            <div>
+                <p style="margin-bottom: 0px">
+                <ol style="margin-bottom: 0px">
+                    <li>Acquire some smartphone VR glasses. We suggest something cheap and foldable that does not
+                        obstruct your touchscreen, like the <a href="https://homido.com/en/mini/">Homido Mini</a> or <a
+                            href="https://www.imcardboard.com/pocket-360.html">Pocket 360</a>.
+                    </li>
+                    <li>Launch a browser on your phone. In Android use Chrome; in iOS use Safari.</li>
+                    <li>Point your phone's browser to the current page, either by typing the URL or by scanning this QR
+                        code:
+                        <br /> <img src="/assets/HomepageImages/QR.png" alt="">
+                        
+                    </li>
+                    <li>In your phone's browser, click one of the stereo thumbnails in the galleries below</li>
+                    <li>Enter VR Mode by hitting the VR button and rotating your phone to landscape orientation</li>
+                    <li>To return to this page from VR Mode, touch your phone's screen to reveal the browser's title bar
+                        and then click the Back button</li>
+                </ol>
+                </p>
+                <br />
+                <p style="margin-top: 0px; margin-bottom: 0px;">
+                    Troubleshooting:
+                <ul>
+                    <li>If the stimulus appears blurry or strange in VR mode, make sure your VR glasses are perfectly
+                        centered and aligned on your phone. It may take some fiddling.</li>
+                    <li>If Safari's title bar does not disappear in VR Mode, try this:
+                        <ol style="margin-top: 0px;">
+                            <li>Close all browser tabs except for the current page</li>
+                            <li>Rotate your phone to portrait orientation and then back to landscape</li>
+                        </ol>
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="viewer">
+            <div class="G1">
+                <h2>Gallery 1: Perceptual Stimuli</h2>
+                <hr>
+                <p>
+                    These images were invented by scientists to understand how stereo vision works in humans. The sense
+                    of depth is only apparent when they are viewed stereoscopically. In many cases, the perceived shape
+                    is strongly influenced by "unmatched features", meaning features that are visible to one eye but not
+                    the other. Beside each thumbnail is a diagram of the perceived shape relative to two eyes, with the
+                    "unmatched features" drawn in red.
+                </p>
+                <div>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_1/2048one_l.png&rImg=/assets/StereoImages/1_1/2048one_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/1.png"
+                                alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Two Planes (Julesz, 1960)</figcaption>
+                        </center>
+                        <br />
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_2/2048two_l.png&rImg=/assets/StereoImages/1_2/2048two_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/2.png"
+                                alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Textured Planes</figcaption>
+                        </center>
+                        <br />
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_3/2048three_l.png&rImg=/assets/StereoImages/1_3/2048three_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/3.png"
+                                alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Textureless Background <br />(Tsirlin et al, 2010)</figcaption>
+                        </center>
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_4/2048four_l.png&rImg=/assets/StereoImages/1_4/2048four_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/4.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Textureless Foreground <br />(Tsirlin et al, 2010)</figcaption>
+                        </center>
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_5/2048five_l.png&rImg=/assets/StereoImages/1_5/2048five_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/5.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Textureless Middle Plane <br />(Tsirlin et al, 2010)</figcaption>
+                        </center>
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_6/2048six_l.png&rImg=/assets/StereoImages/1_6/2048six_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/6.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Textureless Plane</figcaption>
+                        </center>
+                        <br />
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_7/2048seven_l.png&rImg=/assets/StereoImages/1_7/2048seven_r.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/7.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Recessed Cylinder <br />(Belhumuer, 1996)</figcaption>
+                        </center>
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_8/2048eight_l.png&rImg=/assets/StereoImages/1_8/2048eight_r.png" class="external">
+                        <!--       Make static         -->
+                        <figure>
+                            <img src="/assets/StereoPrevs/8.png"
+                                alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Unpaired Bar <br />(Nakayama and Shimojo, 1990)</figcaption>
+                        </center>
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_9/2048nine_l.png&rImg=/assets/StereoImages/1_9/2048nine_r.png"
+                        class="external">
+
+                        <figure>
+                            <img src="/assets/StereoPrevs/9.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Wallpaper, Light Surround <br />(Anderson and Nakayama, 1994)</figcaption>
+                        </center>
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_10/2048ten_l.png&rImg=/assets/StereoImages/1_10/2048ten_r.png"
+                        class="external">
+
+                        <figure>
+                            <img src="/assets/StereoPrevs/10.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Wallpaper, Dark Surround <br />(Anderson and Nakayama, 1994)</figcaption>
+                        </center>
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_11/2048eleven_l.png&rImg=/assets/StereoImages/1_11/2048eleven_r.png"
+                        class="external">
+                    
+                        <figure>
+                            <img src="/assets/StereoPrevs/11.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Slanted Planes</figcaption>
+                        </center>
+                        <br />
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/1_12/2048twelve_l.png&rImg=/assets/StereoImages/1_12/2048twelve_r.png"
+                        class="external">
+                    
+                        <figure>
+                            <img src="/assets/StereoPrevs/12.png" alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Roof <br />(Belhumuer, 1996)</figcaption>
+                        </center>
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/2_1/naka_cross_left.png&rImg=/assets/StereoImages/2_1/naka_cross_right.png"
+                    
+                        class="external">
+                    
+                        <figure>
+                            <img src="/assets/StereoPrevs/naka_cross.png" alt="" style="padding-left: 15px" />
+                        </figure>
+                        <center>
+                            <figcaption>Cross <br />(Nakayama et al, 1990)</figcaption>
+                        </center>
+                        <br />
+                    </a>
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/2_2/von1_left.png&rImg=/assets/StereoImages/2_2/von1_right.png"class="external">
+                        <!--       fix         -->
+                        <figure>
+                            <img src="assets/StereoPrevs/vonszily_1.png"
+                                alt="" style="padding-left: 27px" />
+                        </figure>
+                        <center>
+                            <figcaption>Protruding Folded Paper <br />(Von Szily, 1921, Ehrenstein and Gillam, 1998)
+                            </figcaption>
+                        </center>
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/2_2/von1_right.png&rImg=/assets/StereoImages/2_2/von1_left.png"
+                        class="external">
+                        <!--       fix         -->
+                        <figure>
+                            <img src="assets/StereoPrevs/vonszily_2.png"alt=""
+                                style="padding-left: 27px" />
+                        </figure>
+                        <center>
+                            <figcaption>Protruding Folded Paper Alternate <br />(Von Szily, 1921, Ehrenstein and Gillam, 1998)
+                            </figcaption>
+                        </center>
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/2_4/von3_left.png&rImg=/assets/StereoImages/2_4/von3_right.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/vonszily_3.png"
+                                alt="" style="padding-left: 28px" />
+                        </figure>
+                        <center>
+                            <figcaption>Receding Cylinders <br />(Von Szily, 1921, Ehrenstein and Gillam, 1998)
+                            </figcaption>
+                        </center>
+                    </a>
+
+                    <a href="StereoPages/static.html?lImg=/assets/StereoImages/2_5/von4_left.png&rImg=/assets/StereoImages/2_5/von4_right.png"
+                        class="external">
+                        <figure>
+                            <img src="/assets/StereoPrevs/vonszily_4.png"
+                                alt="" style="padding-left: 29px" />
+                        </figure>
+                        <center>
+                            <figcaption>Protruding Cylinders <br />(Von Szily, 1921, Ehrenstein and Gillam, 1998)
+                            </figcaption>
+                        </center>
+                    </a>
+                </div>
+                <br />
+            </div>
+            <div class="IG">
+                <h2>Gallery 2: Interactive Perceptual Stimuli (Beta)</h2>
+                <hr>
+                <p>
+                    These are interactive versions, where the stimulus is meant to change as you rotate your head
+                    horizontally.
+                </p>
+
+                <br />
+                <div>
+                    <a href="StereoPages/stereo1_8.html" class="external">
+                        <figure>
+                            <img src="assets/StereoPrevs/8.png"
+                                alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Interactive Unpaired Bar <br />(Nakayama and Shimojo, 1990)</figcaption>
+                        </center>
+                        <br />
+                    </a>
+                    <a href="StereoPages/stereo2_1.html" class="external">
+                        <figure>
+                            <img src="assets/StereoPrevs/naka_cross.png"
+                                alt="" />
+                        </figure>
+                        <center>
+                            <figcaption>Interactive Cross <br />(Nakayama et al, 1990)</figcaption>
+                        </center>
+                        <br />
+                    </a>
+                    <a href="StereoPages/stereo2_2.html" class="external">
+                        <figure>
+                            <img src="assets/StereoPrevs/vonszily_1.png"
+                                alt="" style="padding-left: 27px" />
+                        </figure>
+                        <center>
+                            <figcaption>Interactive Folded Paper <br />(Von Szily, 1921, Ehrenstein and Gillam, 1998)
+                            </figcaption>
+                        </center>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h2>
+                    Gallery 3: Photographs
+                    <hr>
+                </h2>
+                <p>
+                    Some examples from the <a href="https://vision.middlebury.edu/stereo/data/scenes2014/"
+                        target="_blank">Middlebury 2014 Stereo Dataset</a>
+                </p>
+                <div class="row">
+                    <a href=""></a>
+                    <div class="column">
+                        Pipes
+                        <a href="StereoPages/static.html?lImg=/assets/StereoImages/Middlebury/im0-2.png&rImg=/assets/StereoImages/Middlebury/im1.png"><img src="assets/StereoPrevs/Pipes.png" class="middlebury" /></a>
+                        
+                        
+                        
+
+                    </div>
+                    <div class="column">
+                        Jadeplant
+                        <a href="StereoPages/static.html?lImg=/assets/StereoImages/Middlebury/im0-3.png&rImg=/assets/StereoImages/Middlebury/im1-2.png"><img src="assets/StereoPrevs/Jadeplant.png"
+                            class="middlebury" style="padding-top: 10px;"/></a>
+                        
+
+                    </div>
+                </div>
+                <br />
+
+                <br />
+            </div>
+            <div class="G3">
+                <h2>Gallery 4: Use Your Own</h2>
+                <hr>
+                <p>
+                    View your own images stereoscopically by pasting two URLs and clicking Go.
+
+                    <br /><br />(Higher resolution images produce a better effect but take longer to load. If your
+                    screen is persistently blank in VR mode, check the image server's access controls.)
+                </p>
+
+                <div style="min-width:100%;">
+                    <form id="myForm">
+                        <input type="text" id="rURL" name="lImg" placeholder="Left Image URL">
+                        <input type="text" id="lURL" name="rImg" placeholder="Right Image URL">
+
+                    </form>
+                    <br>
+                    <button id="b">
+                        Go
+                    </button>
+                    
+                    <script>
+                        document.getElementById("b").onclick = function () { redirect() };
+                        function redirect() {
+                            console.log(document.getElementById("lURL").value);
+                            window.location.href = "StereoPages/static.html?lImg=" + document.getElementById("lURL").value + "&rImg=" + document.getElementById("rURL").value;
+
+                        }
+                    </script>
+
+                    <br /><br />
+                    <p>
+
+                        Another way to see your own images is by passing their URLs as query strings. The syntax is
+                        <br />
+                        <code>(base URL)?lImg=(left image URL)&rImg=(right image URL)</code>
+
+                        <br /><br />
+                        For example, an equivalent way to launch the Two Planes stimulus above is by typing
+                        <br />
+                        <a
+                            href="StereoPages/static.html?lImg=/assets/StereoImages/1_1/2048one_l.png&rImg=/assets/StereoImages/1_1/2048one_r.png"><code>StereoPages/static.html?lImg=/assets/StereoImages/1_1/2048one_l.png<br>&rImg=/assets/StereoImages/1_1/2048one_r.png</code></a>
+                    </p>
+                </div>
+            </div>
+
+
+            <br />
+            <div class="Links">
+                <h2>
+                    Modify the VR Stereoscope
+                    <hr>
+                </h2>
+                <p>
+                    This VR Stereoscope is built in <a href="https://aframe.io/" target="_blank">A-Frame</a>, with contributions from
+                    Oliver Habert, Anubha Srivastava, and Jialiang Wang.
+
+                    The code is minimal. You can <a href="" target="_blank" class="link">fork it on github</a> or
+                    <br /><br /><a href="https://glitch.com/edit/#!/remix/view-master" target="_blank"><img
+                            alt="Remix on Glitch"
+                            src="https://cdn.gomix.com/f3620a78-0ad3-4f81-a271-c8a4faa20f86%2Fremix-button.svg"></a>
+                </p>
+                <br />
+                <h2>
+                    Research Papers
+                    <hr>
+                </h2>
+                <p>
+                    This VR Stereoscope is inspired by two research papers about algorithms for computational stereo
+                    vision that mimic human perception for many of the stimuli above.
+                </p>
+                <p>
+                    <a href="PercepConsistStereo.pdf" target="_blank" class="link">Toward perceptually-consistent
+                        stereo: A scanline study.</a><br />
+                    Jialiang Wang, Daniel Glasner, and Todd Zickler <br />
+                    In Proc. International Conference on Computer Vision (ICCV), 2017.
+                    <br /><br />
+                    <a href="LocalDetectionStereoOcclusionBoundaries.pdf" target="_blank" class="link">Local Detection
+                        of Stereo Occlusion Boundaries.</a>
+                    <br />
+                    Jialiang Wang and Todd Zickler, <br />
+                    In Proc. Computer Vision and Pattern Recognition (CVPR), 2019.
+                </p>
+
+                As of 2020, mimicking human perception for the Wallpaper, Cross, Folded Paper and Cylinders stimuli
+                remain open research problems. For more see this <a
+                    href="https://vision.seas.harvard.edu/stereo/">project page</a>.
+
+            </div>
+
+
+            <div id="references">
+                <h2>References for Perceptual Stimuli</h2>
+                <hr>
+                <p>
+                <ul>
+                    <li>A. von Szily. Stereoskopische Versuche mit Schattenrissen. Albrecht von Graefes Archiv fur
+                        Ophthalmologic, 105 964-972 und Tafel VI, 1921.</li>
+                    <li>B. Julesz. Binocular depth perception without familiarity cues. Science, 145(3630):356–362,
+                        1964.</li>
+                    <li>K. Nakayama and S. Shimojo. Da Vinci Stereopsis: Depth and subjective occluding contours from
+                        unpaired image points. Vision research, 30(11):1811–1825, 1990.</li>
+                    <li>K. Nakayama and S. Shimojo. Experiencing and perceiving visual surfaces. Science,
+                        257(5075):1357-63, 1992.</li>
+                    <li>B.L. Anderson and K. Nakayama. Toward a general theory of stereopsis: binocular matching,
+                        occluding contours, and fusion. Psychological review, 101(3):414, 1994.</li>
+                    <li>P.N. Belhumeur. A Bayesian approach to binocular steropsis. International Journal of Computer
+                        Vision, 19(3):237–260, 1996.</li>
+                    <li>W.H. Ehrenstein and B.J. Gillam. Early demonstrations of subjective contours, amodal completion,
+                        and depth from half-occlusions: “Stereoscopic experiments with silhouettes” by Adolf von Szily
+                        (1921). Perception, 27(12):1407-16, 1998.</li>
+                    <li>I. Tsirlin, L.M. Wilcox, and R.S. Allison. Monocular occlusions determine the perceived shape
+                        and depth of occluding surfaces. Journal of Vision, 10(6):11–11, 2010.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

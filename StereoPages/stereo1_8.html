@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stereo Image 1_8</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="/aframe-stereo-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-sky color="white"></a-sky>
+        <a-light type="ambient" color="white" position="0 0 0"></a-light>
+
+        <!-- 'left' eye entities will pass through the camera in non-VR mode -->
+
+        <a-camera stereocam="eye: left">
+            <a-entity cursor position="0 0 -4" geometry="primitive: ring" material="color: #FFFFFF; opacity: 0">
+            </a-entity>
+            <a-box depth="0.01" color="black" position="0 0 -4"> </a-box>
+            <a-box id="unpaired" width="0.1" height="0.85" depth="0.01" color="black" position="-0.6 0 -4"
+                stereo="eye: left">
+            </a-box>
+        </a-camera>
+        <!-- Left panels -->
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 180; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.61 0 -4">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 202.5; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.62 0 -4">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 225; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.63 0 -4">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 247.5; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.64 0 -4">
+        </a-entity>
+
+        <!-- Right panels -->
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 157.5; radius:10; open-ended: true"
+            position=" 2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.59 0 -4">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 135; radius:10; open-ended: true"
+            position=" 2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.58 0 -4">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 112.5; radius:10; open-ended: true"
+            position=" 2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.57 0 -4">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 90; radius:10; open-ended: true"
+            position=" 2 0 -5" material="color: white; side: double"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.56 0 -4">
+        </a-entity>
+
+        <a-entity geometry="primitive: box; height: 100; width:4" position=" 0 0 -15" material="color: white"
+            event-set__enter="_event: mouseenter; _target: #unpaired;  position: -0.6 0 -4">
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
