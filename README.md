@@ -18,13 +18,13 @@ Troubleshooting:
 
 ## Examples
 
-<a href=""><img width="400" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121393728-a63ab800-c91e-11eb-8db1-1d405cf72120.png"></a>
+<a href="https://vision.seas.harvard.edu/stereoscope/StereoPages/static.html?lImg=/stereoscope/assets/StereoImages/1_1/2048one_l.png&rImg=/stereoscope/assets/StereoImages/1_1/2048one_r.png"><img width="400" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121393728-a63ab800-c91e-11eb-8db1-1d405cf72120.png"></a>
 
-<a><img width="400" alt="vonszily_1" src="https://user-images.githubusercontent.com/46768895/121393576-7ab7cd80-c91e-11eb-9548-d7260b54fc6e.png"></a>
+<a href="https://vision.seas.harvard.edu/stereoscope/StereoPages/stereo2_2.html"><img width="400" alt="vonszily_1" src="https://user-images.githubusercontent.com/46768895/121393576-7ab7cd80-c91e-11eb-9548-d7260b54fc6e.png"></a>
 
-<a><img width="400" alt="Pipes" src="https://user-images.githubusercontent.com/46768895/121393646-8e633400-c91e-11eb-8f38-a6a07c407cf5.png"></a>
-
-
+<a href="https://vision.seas.harvard.edu/stereoscope/StereoPages/static.html?lImg=/stereoscope/assets/StereoImages/Middlebury/im0-2.png&rImg=/stereoscope/assets/StereoImages/Middlebury/im1.png"><img width="400" alt="Pipes" src="https://user-images.githubusercontent.com/46768895/121393646-8e633400-c91e-11eb-8f38-a6a07c407cf5.png"></a>
 
 
-To view the site, visit [this]() link
+
+
+To view the site, visit [this](https://vision.seas.harvard.edu/stereoscope/) link
