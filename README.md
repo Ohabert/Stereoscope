@@ -45,5 +45,8 @@ Troubleshooting:
 
 The easiest way to start making your own VR stereoscope is to [remix the VR Stereoscope in glitch](https://glitch.com/edit/#!/remix/view-master). Simply follow that link, edit the HTML that's in index.html and /Stereopages, and see your changes live.
 Alternatively, you can [fork this github repo](https://github.com/Ohabert/Stereoscope/fork), clone a copy of your fork locally by following these steps: 
-1. 
-[see image in next post for relevant information to copy from the a-frame github example]. For other ways to get started see the <a-frame boilerplate on github>.
+1. git clone https://github.com/Ohabert/Stereoscope.git
+2. cd Stereoscope && npm install
+3. npm start
+
+For other ways to get started see the [a-frame boilerplate on github](https://github.com/aframevr/aframe).
