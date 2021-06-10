@@ -4,10 +4,10 @@
 ## Usage
 1. Acquire some smartphone VR glasses. We suggest something cheap and foldable that does not obstruct your touchscreen, like the [Homido Mini](https://homido.com/en/mini/) or [Pocket 360](https://www.imcardboard.com/pocket-360.html)
 2. Launch a browser on your phone. In android use Chrome; in IOS use Safari
-3. Point your phone's browser to the Stereoscope page, either by typing the URL or by scanning this QR code: <img src="https://user-images.githubusercontent.com/46768895/121392174-25c78780-c91d-11eb-8e21-11717aebe49f.png" alt="QR" width="200"/>
-4. In your phone's browser, click one of the stereo thumbnails in the galleries below
-5. Enter VR Mode by hitting the VR button and rotating your phone to landscape orientation
-6. To return to the homepage from VR Mode, touch your phone's screen to reveal the browser's title bar and then click the back button
+3. Point your phone's browser to the Stereoscope page, either by typing the URL or by scanning this QR code: <br><img src="https://user-images.githubusercontent.com/46768895/121392174-25c78780-c91d-11eb-8e21-11717aebe49f.png" alt="QR" width="200"/>
+5. In your phone's browser, click one of the stereo thumbnails in the galleries below
+6. Enter VR Mode by hitting the VR button and rotating your phone to landscape orientation
+7. To return to the homepage from VR Mode, touch your phone's screen to reveal the browser's title bar and then click the back button
 
 Troubleshooting:
 1. If the stimulus appears blurry or strange in VR mode, make sure your VR glasses are perfectly centered and aligned on your phone. It may take some fiddling
