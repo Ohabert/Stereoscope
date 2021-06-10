@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stereo Naka Cross Interactive</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="/aframe-stereo-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@^4.0.0/dist/aframe-event-set-component.min.js"></script>
+    <script
+        src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@^5.1.2/dist/aframe-animation-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-sky color="white"></a-sky>
+        <a-light type="ambient" color="white" position="0 0 0"></a-light>
+
+        <!-- 'left' eye entities will pass through the camera in non-VR mode -->
+
+        <a-camera stereocam="eye: left">
+            <a-entity cursor position="0 0 -4" geometry="primitive: ring" material="color: #FFFFFF; opacity: 0">
+            </a-entity>
+            <!--I flipped left and right since the effect seemed better but could be wrong-->
+            <a-box depth="0.01" color="black" position="0.075 0 -4" width="0.3" height="1.5" stereo="eye: right">
+            </a-box>
+            <a-box depth="0.01" color="black" position="-0.075 0 -4" width="0.3" height="1.5" stereo="eye: left">
+            </a-box>
+            <!--Top left triangle-->
+            <a-triangle depth="0.01" color="black" position="-0.6 0 -4" side="double" vertex-a="-0.6 0.2 -4"
+                vertex-b="0.6 0.2 -4" vertex-c="0.5 -0.2 -4"
+                animation__0a="property: vertex-a; to: -0.60 0.20 -4; delay: 0; dur: 1; startEvents: move0"
+                animation__1a="property: vertex-a; to: -0.58 0.23 -4; delay: 0; dur: 1; startEvents: move1"
+                animation__2a="property: vertex-a; to: -0.56 0.26 -4; delay: 0; dur: 1; startEvents: move2"
+                animation__3a="property: vertex-a; to: -0.54 0.29 -4; delay: 0; dur: 1; startEvents: move3"
+                animation__4a="property: vertex-a; to: -0.52 0.32 -4; delay: 0; dur: 1; startEvents: move4">
+            </a-triangle>
+            <!--Bottom left triangle-->
+            <a-triangle depth="0.01" color="black" position="-0.6 0 -4" side="double" vertex-a="-0.6 0.2 -4"
+                vertex-b="-0.6 -0.2 -4" vertex-c="0.5 -0.2 -4"
+                animation__0a="property: vertex-a; to: -0.60 0.20 -4; delay: 0; dur: 1; startEvents: move0"
+                animation__0b="property: vertex-b; to: -0.60 -0.20 -4; delay: 0; dur: 1; startEvents: move0"
+                animation__1a="property: vertex-a; to: -0.58 0.23 -4; delay: 0; dur: 1; startEvents: move1"
+                animation__1b="property: vertex-b; to: -0.58 -0.23 -4; delay: 0; dur: 1; startEvents: move1"
+                animation__2a="property: vertex-a; to: -0.56 0.26 -4; delay: 0; dur: 1; startEvents: move2"
+                animation__2b="property: vertex-b; to: -0.56 -0.26 -4; delay: 0; dur: 1; startEvents: move2"
+                animation__3a="property: vertex-a; to: -0.54 0.29 -4; delay: 0; dur: 1; startEvents: move3"
+                animation__3b="property: vertex-b; to: -0.54 -0.29 -4; delay: 0; dur: 1; startEvents: move3"
+                animation__4a="property: vertex-a; to: -0.52 0.32 -4; delay: 0; dur: 1; startEvents: move4"
+                animation__4b="property: vertex-b; to: -0.52 -0.32 -4; delay: 0; dur: 1; startEvents: move4">
+            </a-triangle>
+            <!--Top right triangle-->
+            <a-triangle depth="0.01" color="black" position="0.6 0 -4" side="double" vertex-a="0.6 0.2 -4"
+                vertex-b="-0.6 0.2 -4" vertex-c="-0.5 -0.2 -4"
+                animation__0a="property: vertex-a; to: 0.60 0.20 -4; delay: 0; dur: 1; startEvents: move0"
+                animation__1a="property: vertex-a; to: 0.58 0.23 -4; delay: 0; dur: 1; startEvents: move1"
+                animation__2a="property: vertex-a; to: 0.56 0.26 -4; delay: 0; dur: 1; startEvents: move2"
+                animation__3a="property: vertex-a; to: 0.54 0.29 -4; delay: 0; dur: 1; startEvents: move3"
+                animation__4a="property: vertex-a; to: 0.52 0.32 -4; delay: 0; dur: 1; startEvents: move4">
+            </a-triangle>
+            <!--Bottom right triangle-->
+            <a-triangle depth="0.01" color="black" position="0.6 0 -4" side="double" vertex-a="0.6 0.2 -4"
+                vertex-b="0.6 -0.2 -4" vertex-c="-0.5 -0.2 -4"
+                animation__0a="property: vertex-a; to: 0.60 0.20 -4; delay: 0; dur: 1; startEvents: move0"
+                animation__0b="property: vertex-b; to: 0.60 -0.20 -4; delay: 0; dur: 1; startEvents: move0"
+                animation__1a="property: vertex-a; to: 0.58 0.23 -4; delay: 0; dur: 1; startEvents: move1"
+                animation__1b="property: vertex-b; to: 0.58 -0.23 -4; delay: 0; dur: 1; startEvents: move1"
+                animation__2a="property: vertex-a; to: 0.56 0.26 -4; delay: 0; dur: 1; startEvents: move2"
+                animation__2b="property: vertex-b; to: 0.56 -0.26 -4; delay: 0; dur: 1; startEvents: move2"
+                animation__3a="property: vertex-a; to: 0.54 0.29 -4; delay: 0; dur: 1; startEvents: move3"
+                animation__3b="property: vertex-b; to: 0.54 -0.29 -4; delay: 0; dur: 1; startEvents: move3"
+                animation__4a="property: vertex-a; to: 0.52 0.32 -4; delay: 0; dur: 1; startEvents: move4"
+                animation__4b="property: vertex-b; to: 0.52 -0.32 -4; delay: 0; dur: 1; startEvents: move4">
+            </a-triangle>
+        </a-camera>
+        <!-- Left panels -->
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 180; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            proxy-event__enter="event: mouseenter; to: a-triangle; as: move1">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 202.5; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            proxy-event__enter="event: mouseenter; to: a-triangle; as: move2">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 225; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            proxy-event__enter="event: mouseenter; to: a-triangle; as: move3">
+        </a-entity>
+
+        <a-entity
+            geometry="primitive: cylinder; height: 100; theta-length: 22.5; theta-start: 247.5; radius:10; open-ended: true"
+            position=" -2 0 -5" material="color: white; side: double"
+            proxy-event__enter="event: mouseenter; to: a-triangle; as: move4">
+        </a-entity>
+
+
+        <a-entity geometry="primitive: box; height: 100; width:4" position=" 0 0 -15" material="color: white"
+            proxy-event__enter="event: mouseenter; to: a-triangle; as: move0">
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
