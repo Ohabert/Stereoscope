@@ -49,6 +49,6 @@ git clone https://github.com/Ohabert/Stereoscope.git  # Clone the repository
 cd stereoscope && npm install  # Install dependencies
 npm start  # Start the local development server
 ```
-and point your browser to http://localhost:9000.
+and point your browser to http://localhost:3000. The URL will be logged to the console when the development server starts. Load that URL from a smartphone browser that's on the same LAN. 
 
 For A-Frame syntax check out the [A-Frame documentation](https://aframe.io/docs/1.2.0/introduction/).
