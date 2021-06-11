@@ -1,5 +1,5 @@
 # VR Stereoscope
-This is a simple smartphone-based stereoscope built with [A-Frame](https://aframe.io/). It allows anyone with a smartphone and a cheap set of VR glasses to experience and interact with stereo images, in particular those created by vision scientists to understand how binocular stereo vision works. Any pair of left/right images can be viewed stereoscopically on a smartphone, just by passing the image URLs in a query string. 
+This is HTML code for a simple smartphone-based stereoscope built with [A-Frame](https://aframe.io/). It allows anyone with a smartphone and a cheap set of VR glasses to experience and interact with stereo images, in particular those created by vision scientists to understand how binocular stereo vision works. Any pair of left/right images can be viewed stereoscopically on a smartphone, just by passing the image URLs in a query string. 
 
 Details about this project and a collection of popular stereo images are at [vision.seas.harvard.edu/stereoscope](https://vision.seas.harvard.edu/stereoscope/).
 
