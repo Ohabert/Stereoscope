@@ -18,7 +18,7 @@ Troubleshooting:
 * If Safari's title bar does not disappear in VR Mode, try this:
   * Close all browser tabs except for the current page
   * Rotate your phone to portrait orientation and then back to landscape
-  * If this fails, you can at least reduce its size by clicking `aA` -> `Hide Toolbar` in the address bar
+  * If all else fails, you can at least reduce its size by clicking `aA` -> `Hide Toolbar` in the address bar
 
 
 <img width="100" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121567290-65a97000-c9ec-11eb-9162-28222345642e.png">
