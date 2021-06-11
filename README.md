@@ -41,7 +41,7 @@ Example:
 
 ## Getting Started
 
-The easiest way to start making your own VR stereoscope is to [remix this VR Stereoscope in glitch](https://glitch.com/edit/#!/remix/view-master). Simply follow that link, edit the HTML that's in `index.html` and `Stereopages/`, and see your changes live.
+The easiest way to start making your own VR stereoscope is to [remix VR Stereoscope in glitch](https://glitch.com/edit/#!/remix/view-master). Simply follow that link, edit the HTML that's in `index.html` and `Stereopages/`, and see your changes live.
 
 Alternatively, you can develop locally:
 ```
