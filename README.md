@@ -13,17 +13,16 @@ The following examples require a pair of VR glasses and a smartphone. For glasse
 
 Point your phone at one of the QR codes below (or click on the stereo image thumbnail if you are already viewing this page on your phone). Then, click the phone's VR button, rotate to landscape orientation, and attach some VR glasses. 
 
+<img width="213" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121702956-5257dc80-caa0-11eb-9d6e-4a7169069991.png"> <img width="100" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121567290-65a97000-c9ec-11eb-9162-28222345642e.png"> 
+
+<img width="198" alt="Pipes" src="https://user-images.githubusercontent.com/46768895/121703402-c72b1680-caa0-11eb-8ac5-ca51785100e9.png">    <img width="100" alt="pipes" src="https://user-images.githubusercontent.com/46768895/121568694-f59be980-c9ed-11eb-8837-a7545befb523.png">
+
 Troubleshooting:
 * If the stimulus appears blurry or strange in VR mode, make sure your VR glasses are perfectly centered and aligned on your phone. It may take some fiddling.
 * If Safari's title bar does not disappear in VR Mode, try this:
   * Close all browser tabs except for the current page
   * Rotate your phone to portrait orientation and then back to landscape
   * If all else fails, you can at least reduce its size by clicking `aA` -> `Hide Toolbar` in the address bar
-
-<img width="213" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121702956-5257dc80-caa0-11eb-9d6e-4a7169069991.png"> <img width="100" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121567290-65a97000-c9ec-11eb-9162-28222345642e.png"> 
-
-<img width="198" alt="Pipes" src="https://user-images.githubusercontent.com/46768895/121703402-c72b1680-caa0-11eb-8ac5-ca51785100e9.png">    <img width="100" alt="pipes" src="https://user-images.githubusercontent.com/46768895/121568694-f59be980-c9ed-11eb-8837-a7545befb523.png">
-
 
 #### Interactive scene
 This scene is meant to change interactively as you rotate your head horizontally.
