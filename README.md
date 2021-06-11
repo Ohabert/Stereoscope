@@ -1,5 +1,5 @@
 # VR Stereoscope
-This repository contains a copy of the code on [this](https://vision.seas.harvard.edu/stereoscope/) website. It is a simple smartphone-based stereoscope built with A-Frame, for the purpose of experiencing and interacting with scientific binocular stereo stimuli.
+This is a simple smartphone-based stereoscope built with A-Frame. It allows anyone with a smartphone and a cheap set of VR glasses to experience and interact with stereo images that have been created by vision scientists to reveal the inner workings of binocular stereo vision. It is also flexible and can be used to view any pair of left/right images stereoscopically on a smartphone, simply by passing URLs to the images as a query string. For more detail about this project and it's purpose see [vision.seas.harvard.edu/stereoscope/](https://vision.seas.harvard.edu/stereoscope/).
 
 <img src="https://user-images.githubusercontent.com/46768895/121390844-c61cac80-c91b-11eb-8014-7943fe0dff0a.jpg" alt="header" width="600"/>
 
