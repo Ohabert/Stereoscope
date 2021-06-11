@@ -7,7 +7,7 @@ Details about this project and a collection of popular stereo images are at [vis
 
 ## Demos
 
-The following examples require a pair of VR glasses and a smartphone with web browser. For glasses, we suggest something cheap and foldable that does not obstruct the phone's touchscreen, like the [Homido Mini](https://homido.com/en/mini/) or [Pocket 360](https://www.imcardboard.com/pocket-360.html). For browsers, we recommend using Chrome on Android devices and Safari in iOS. 
+The following examples require a pair of VR glasses and a smartphone. For glasses, we suggest something cheap and foldable that does not obstruct the phone's touchscreen, like the [Homido Mini](https://homido.com/en/mini/) or [Pocket 360](https://www.imcardboard.com/pocket-360.html). For the smartphone web browser, we recommend using Chrome in Android and Safari in iOS. 
 
 #### Static scenes
 
@@ -18,7 +18,7 @@ Troubleshooting:
 * If Safari's title bar does not disappear in VR Mode, try this:
   * Close all browser tabs except for the current page
   * Rotate your phone to portrait orientation and then back to landscape
-  * If this fails, you can at least reduce its size by clicking `aA` -> `Hide Toolbar` in address bar
+  * If this fails, you can at least reduce its size by clicking `aA` -> `Hide Toolbar` in the address bar
 
 
 <img width="100" alt="Julesz" src="https://user-images.githubusercontent.com/46768895/121567290-65a97000-c9ec-11eb-9162-28222345642e.png">
