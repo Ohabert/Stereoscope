@@ -47,9 +47,9 @@ The easiest way to start making your own VR stereoscope is to [remix the VR Ster
 
 Alternatively, you can develop locally:
 ```
-git clone https://github.com/Ohabert/Stereoscope.git  # Clone the repository.
-cd aframe && npm install  # Install dependencies.
-npm start  # Start the local development server.
+git clone https://github.com/Ohabert/Stereoscope.git  # Clone the repository
+cd aframe && npm install  # Install dependencies
+npm start  # Start the local development server
 ```
 and point your browser to http://localhost:9000.
 
