@@ -7,9 +7,9 @@ Details about this project and a collection of popular stereo images are at [vis
 
 ## Demos
 
-These examples require a pair of VR glasses and a smartphone with web browser. For glasses, we suggest something cheap and foldable that does not obstruct the phone's touchscreen, like the [Homido Mini](https://homido.com/en/mini/) or [Pocket 360](https://www.imcardboard.com/pocket-360.html). For browsers, we recommend using Chrome on Android devices and Safari in iOS. 
+The following examples require a pair of VR glasses and a smartphone with web browser. For glasses, we suggest something cheap and foldable that does not obstruct the phone's touchscreen, like the [Homido Mini](https://homido.com/en/mini/) or [Pocket 360](https://www.imcardboard.com/pocket-360.html). For browsers, we recommend using Chrome on Android devices and Safari in iOS. 
 
-#### Static Scenes
+#### Static scenes
 
 Point your phone at one of the QR codes below (or click on the stereo image thumbnail if you are already viewing this page on your phone). Then, click the phone's VR button, rotate to landscape orientation, and attach some VR glasses. 
 
@@ -25,25 +25,22 @@ Troubleshooting:
 <img width="100" alt="pipes" src="https://user-images.githubusercontent.com/46768895/121568694-f59be980-c9ed-11eb-8837-a7545befb523.png">
 
 
-#### Interactive Scenes
-
+#### Interactive scene
 This scene is meant to change interactively as you rotate your head horizontally.
 
 <img width="100" alt="pipes" src="https://user-images.githubusercontent.com/46768895/121568837-1f551080-c9ee-11eb-8e11-b2bbc4ef37d7.png">
 
-#### Use Your Own Images
+#### Query string
+To view any left/right images stereoscopically, use this query string syntax in your phone browser's address bar:
+`<base URL> + ?lImg= + <left image URL> + &rImg= + <right image URL>`
 
-The query string syntax for viewing any left/right pair of images is:
-
-`Base URL + ?lImg= + address of left image + &rImg= + address of right image`
-
-For example:
+Example:
 
 [https://vision.seas.harvard.edu/stereoscope/StereoPages/static.html?lImg=/stereoscope/assets/StereoImages/1_11/2048eleven_l.png&rImg=/stereoscope/assets/StereoImages/1_11/2048eleven_r.png](https://vision.seas.harvard.edu/stereoscope/StereoPages/static.html?lImg=/stereoscope/assets/StereoImages/1_11/2048eleven_l.png&rImg=/stereoscope/assets/StereoImages/1_11/2048eleven_r.png)
 
 ## Getting Started
 
-The easiest way to start making your own VR stereoscope is to [remix the VR Stereoscope in glitch](https://glitch.com/edit/#!/remix/view-master). Simply follow that link, edit the HTML that's in `index.html` and `Stereopages/`, and see your changes live.
+The easiest way to start making your own VR stereoscope is to [remix this VR Stereoscope in glitch](https://glitch.com/edit/#!/remix/view-master). Simply follow that link, edit the HTML that's in `index.html` and `Stereopages/`, and see your changes live.
 
 Alternatively, you can develop locally:
 ```
